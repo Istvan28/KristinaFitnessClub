@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.min.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/icons8-гантель-16.png"
+      type="image/x-icon"
+    />
+    <title>Training</title>
+  </head>
+  <body>
+    <div class="root">
+      <header class="Header">
+        <nav class="Navigation">
+          <section>
+            <h3 class="Logo">
+              <span
+                ><img
+                  class="kristi firtstlogo"
+                  src="./assets/images/kristi3.jpg"
+                  alt="Logo"
+                  width="130"
+                  height="80"
+              /></span>
+              <section class="text">
+                <span>KristinaFitnessClub</span>
+              </section>
+            </h3>
+          </section>
+
+          <section class="Navigation-Block">
+            <ul class="Navigation-List">
+              <li class="Navigation-List__Item">
+                <a href="./index.html">Головна</a>
+                <!-- <span>Мій шлях</span> -->
+              </li>
+              <li class="Navigation-List__Item">
+                <a href="./training.html">Розклад тренуваннь</a>
+                <!-- <span>Розклад тренуваннь</span> -->
+              </li>
+              <li class="Navigation-List__Item">
+                <span>Вартість</span>
+              </li>
+              <li class="Navigation-List__Item">
+                <a href="#Footer">Контакти</a>
+                <!-- <span>Контакти</span> -->
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </header>
+      <main class="main2">
+        <section class="workout">
+          <div class="workout-list__item">
+            <h2>ПОНЕДІЛОК</h2>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />18:00 - online фітнес
+            </p>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />
+              19:15 - фітнес
+            </p>
+          </div>
+          <div class="workout-list__item">
+            <h2>ВІВТОРОК</h2>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />9:00 - фітнес
+            </p>
+            <p>
+              <img src="./assets/icons/icons8-девочка-32.png" alt="girl" />17:00
+              - дитяча група Чирлідинг
+            </p>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />19:00 - фітнес
+            </p>
+          </div>
+          <div class="workout-list__item">
+            <h2>СЕРЕДА</h2>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />18:00 - online фітнес
+            </p>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />19:15 - фітнес
+            </p>
+          </div>
+
+          <div class="workout-list__item">
+            <h2>ЧЕТВЕР</h2>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />9:00 - фітнес
+            </p>
+            <p>
+              <img src="./assets/icons/icons8-девочка-32.png" alt="girl" />17:00
+              - дитяча група Чирлідинг
+            </p>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />19:00 - фітнес
+            </p>
+          </div>
+          <div class="workout-list__item">
+            <h2>П’ЯТНИЦЯ</h2>
+            <p>
+              <img
+                src="./assets/icons/icons8-гимнастика-32.png"
+                alt="strecthing"
+              />18:30 - стретчинг
+            </p>
+            <p>
+              <img
+                src="./assets/icons/icons8-беговая-дорожка-32.png"
+                alt="cardio"
+              />19:30 - кардіо тренування
+            </p>
+          </div>
+          <div class="workout-list__item">
+            <h2>СУБОТА</h2>
+            <p>
+              <img
+                src="./assets/icons/icons8-приседания-32.png"
+                alt="fitness"
+              />10:00 - фітнес
+            </p>
+          </div>
+        </section>
+        <section class="Form">
+          <div class="Form-block">
+            <form method="get" action="/api/friends">
+              <label for="name">Ім'я</label>
+              <input
+                required
+                type="text"
+                placeholder="ім'я"
+                value=""
+                id="name"
+              />
+              <label for="tel">Телефон</label>
+              <input type="tel" name="Tel" id="Tel" />
+              <label for="email">Почта</label>
+              <input type="email" placeholder="почта" required id="email" />
+              <input class="Button" type="button" value="ЗАПИШИСЬ " />
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section id="Footer">
+          <ul class="Footer-Title">
+            <li class="Big-Footer__Title">
+              Я ДОПОМОЖУ <span class="Color-Slogen">ТОБІ</span> ПРИЙТИ У ФОРМУ
+            </li>
+            <li class="Little-Footer__Title">
+              Зв'яжіться зі мною, і я створю план, розроблений спеціально для
+              вас.
+            </li>
+          </ul>
+          <section class="Footer-Contact">
+            <div class="Footer-Div">
+              <ul class="Footer-Block">
+                <li class="Footer-Block__Item">
+                  <img
+                    src="./assets/icons/icons8-телефон-64.png"
+                    alt="telephon"
+                    width="48"
+                    height="48"
+                  />
+                </li>
+                <li class="Footer-Block__ItemB">CALL ME</li>
+                <li class="Footer-Block__Item">+420 723 973 148</li>
+              </ul>
+              <ul class="Footer-Block">
+                <li class="Footer-Block__Item">
+                  <img
+                    src="./assets/icons/icons8-почта-50.png"
+                    alt="mail"
+                    width="48"
+                    height="48"
+                  />
+                </li>
+                <li class="Footer-Block__ItemB">MAIL ME</li>
+                <li class="Footer-Block__Item">gizigz7@gmail.com</li>
+              </ul>
+            </div>
+            <div class="Footer-Div">
+              <ul class="Footer-Block">
+                <li class="Footer-Block__Item">
+                  <img
+                    src="./assets/icons/icons8-геозона-50.png"
+                    alt="geo"
+                    width="48"
+                    height="48"
+                  />
+                </li>
+                <li class="Footer-Block__ItemB">FIND ME</li>
+                <li class="Footer-Block__Item">Praha 8</li>
+              </ul>
+              <ul class="Footer-Block Programs">
+                <li class="Footer-Block__Item">
+                  <img
+                    src="./assets/icons/icons8-dumbell-65.png"
+                    alt="sport"
+                    width="48"
+                    height="48"
+                  />
+                </li>
+                <li class="Footer-Block__ItemB">Programs</li>
+                <li class="Footer-Block__Item">Click</li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section class="End">
+          <ul>
+            <li>
+              <img
+                class="kristi"
+                src="./assets/images/kristi3.jpg"
+                alt="Logo"
+                width="150"
+                height="100"
+              />
+            </li>
+            <li class="text">KristinaFitnessClub</li>
+            <li class="Footer-Ico">
+              <a
+                href="https://www.instagram.com/kristinafitnessclub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                ><img
+                  src="./assets/icons/icons8-instagram-96.png"
+                  alt="instagram"
+                  height="50"
+                  width="50"
+              /></a>
+              <img
+                src="./assets/icons/icons8-whatsapp-50.png"
+                alt="whatsup"
+                height="50"
+                width="50"
+              />
+              <img
+                src="./assets/icons/icons8-viber-50.png"
+                alt="viber"
+                width="50"
+                height="50"
+              />
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

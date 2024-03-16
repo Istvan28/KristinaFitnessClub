@@ -1,0 +1,108 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  // height: 130px;
+  z-index: 3;
+  // background-color: #300d6dab;
+  // backdrop-filter: blur(10px);
+  background-color: var(--DarkViolet-color);
+  border-radius: 0px 0px 4px 4px;
+  .Navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    .Navigation-Block {
+      .Navigation-List {
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding: 0px 10px;
+        a {
+          text-decoration: none;
+          color: var(--White-color);
+          border-radius: 50px;
+          padding: 10px;
+        }
+        .Navigation-List__Item {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: var(--HotPink-color);
+  }
+}
+
+@media (hover: none) {
+  a:active {
+    background-color: var(--HotPink-color);
+  }
+}
+
+.Logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0px 10px;
+}
+
+.text {
+  font-family: "Dancing Script", cursive;
+  font-size: clamp(2rem, 1.775rem + 1.125vw, 3.125rem);
+  color: var(--White-color);
+}
+
+li {
+  list-style: none;
+  color: var(--White-color);
+}
+
+.kristi {
+  border-radius: 50%;
+}
+
+@media (max-width: 557px) {
+  .firtstlogo {
+    display: none;
+  }
+  .Header {
+    top: 0;
+  }
+}
+
+@media (max-width: 427px) {
+  .Navigation {
+    gap: 20px;
+  }
+}
+
+// .Burger-Menu {
+//       opacity: 0;
+//       background-color: #fafafa;
+//       padding: 5px;
+//       display: flex;
+//       flex-direction: column;
+//       gap: 5px;
+//       border-radius: 5px;
+//       span {
+//         border-radius: 5px;
+//         width: 30px;
+//         height: 5px;
+//         display: block;
+//         background-color: #1a1a1a;
+//       }

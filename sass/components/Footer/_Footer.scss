@@ -1,0 +1,94 @@
+#Footer {
+  border-radius: 4px 4px 0px 0px;
+  height: fit-content;
+  background-color: var(--Violet-color);
+
+  .Big-Footer__Title {
+    font-family: "Roboto", sans-serif;
+    font-style: oblique;
+    color: var(--White-color);
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 40px;
+  }
+  .Little-Footer__Title {
+    font-family: "Roboto", sans-serif;
+    color: var(--White-color);
+  }
+  .Color-Slogen {
+    color: var(--IndianRed-color);
+  }
+
+  .Footer-Block {
+    width: 250px;
+    height: 250px;
+    background-color: var(--White-color);
+    border-radius: 10px;
+  }
+  .Footer-Title {
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+
+.Footer-Contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+  .Footer-Div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    .Footer-Block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      font-family: "Roboto", sans-serif;
+
+      .Footer-Block__Item {
+        color: black;
+        font-style: oblique;
+      }
+      .Footer-Block__ItemB {
+        color: black;
+        font-weight: 600;
+      }
+      .Programs {
+        background-color: var(--HotPink-color);
+      }
+    }
+  }
+}
+
+.End {
+  background-color: var(--DarkViolet-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  .Footer-Ico {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+  }
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.Programs {
+  background-color: var(--HotPink-color) !important;
+}
+
+@media (max-width: 1920px) {
+  .Footer-Div {
+    justify-content: center;
+  }
+}
